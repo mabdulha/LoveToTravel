@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Journals</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title">tv_card_title</string>
+</resources>

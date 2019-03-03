@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ie.cm.home">
+
+    <item android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+</menu>

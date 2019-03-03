@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "864845900464",
+    "firebase_url": "https://lovetotravel-56273.firebaseio.com",
+    "project_id": "lovetotravel-56273",
+    "storage_bucket": "lovetotravel-56273.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864845900464:android:84e67bc5aaf75eda",
+        "android_client_info": {
+          "package_name": "ie.com.lovetotravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864845900464-2c4t0sd473u46jmltmu9aqe8qpa6oh9d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ie.com.lovetotravel",
+            "certificate_hash": "5ec14eb60530bfc20c3243cec5bc8a97bf07786b"
+          }
+        },
+        {
+          "client_id": "864845900464-sl1vav3j5c7vohuakgc2sd1g04kl0a7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA4YZct82BItMwOiWcNbeBbbbQ4uPbAko"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864845900464-sl1vav3j5c7vohuakgc2sd1g04kl0a7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

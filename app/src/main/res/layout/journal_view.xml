@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.JournalView">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/tv_view_date"
+        android:layout_below="@id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="23 January 2018"
+        android:textSize="20dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp"
+        android:gravity="end"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/tv_view_Title"
+        android:layout_below="@+id/tv_view_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Journal Entry Title"
+        android:minHeight="50dp"
+        android:textSize="20dp"
+        android:background="@drawable/underline"/>
+
+    <TextView
+        android:id="@+id/tv_view_entry"
+        android:layout_below="@+id/tv_view_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Journal Entry"
+        android:padding="15dp"
+        android:textSize="15dp"
+        />
+
+</RelativeLayout>
